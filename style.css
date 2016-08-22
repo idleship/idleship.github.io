@@ -1,0 +1,7 @@
+html { 
+  background: url(https://upload.wikimedia.org/wikipedia/commons/0/09/Night_stars_berlin.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
