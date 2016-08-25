@@ -1,1 +1,1 @@
-alert(IdleShip is Free to Play, thank you!)
+alert("IdleShip is Free to Play, thank you!")
