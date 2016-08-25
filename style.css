@@ -1,7 +1,7 @@
 h3 {
-  position: relative;
-  top: 300px;
-  left: 500px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
 }
 svg {
   background: red;
