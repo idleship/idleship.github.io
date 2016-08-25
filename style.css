@@ -3,3 +3,6 @@ h3 {
   top: 300px;
   left: 500px;
 }
+svg {
+  background: red;
+}
