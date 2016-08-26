@@ -7,5 +7,5 @@ function increase()
 }
 function submitform()
 {
-    document.getElementById("submittingform").submit();
+    document.getElementById("SubmittingForm").submit();
 }
