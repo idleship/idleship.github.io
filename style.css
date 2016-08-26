@@ -18,6 +18,3 @@ h3 {
   -moz-user-select: none;
   -webkit-user-select: none;
 }
-.button:active {
-  padding: 500px 500px;
-}
