@@ -1,1 +1,5 @@
-alert("IdleShip is Free to Play, thank you!")
+i=0;
+function increase()
+{
+  
+}
