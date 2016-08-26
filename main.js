@@ -3,7 +3,7 @@ function increase()
 {
   i++;
   document.getElementById("increase").innerHTML=i;
-  return false;
+  return true;
 }
 var Timer = window.setInterval(function(){Tick()}, 1000);
 
