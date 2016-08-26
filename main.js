@@ -7,8 +7,8 @@ function increase()
 }
 var Timer = window.setInterval(function(){Tick()}, 1000);
 
-var Building1Name = "Lemonade Stand";
-var Building1Cost = 10;
+var Building1Name = "Planet Miner";
+var Building1Cost = 25;
 var Building1PerSec = 1;
 var Building1Qty = 0;
 
