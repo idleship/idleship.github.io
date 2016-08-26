@@ -3,3 +3,10 @@ h3 {
   bottom: -125px;
   right: -125px;
 }
+#leftwords {
+  float: left;
+  
+}
+#increase {
+  float: left;
+}
