@@ -13,15 +13,15 @@ var Building1PerSec = 1;
 var Building1Qty = 0;
 
 function Tick() {
-	money = money + (Building1Qty * Building1PerSec);
-	document.getElementById("money").innerHTML = money;
+	increase = increase + (Building1Qty * Building1PerSec);
+	document.getElementById("increase").innerHTML = increase;
 }
 
 function BuyLemonadeStand() {
-	if (money >= Building1Cost) {
-		money = money - Building1Cost;
+	if (increase >= Building1Cost) {
+		increase = money - Building1Cost;
 		Building1Qty = Building1Qty + 1;
-		document.getElementById("money").innerHTML = money;
+		document.getElementById("increase").innerHTML = increase;
 		document.getElementById("Building1Qty").innerHTML = Building1Qty;
 	}
 }
