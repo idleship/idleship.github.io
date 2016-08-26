@@ -5,7 +5,6 @@ function increase()
   document.getElementById("increase").innerHTML=i;
   return true;
 }
-var Timer = window.setInterval(function(){Tick()}, 1000);
 
 var Building1Name = "Planet Miner";
 var Building1Cost = 25;
