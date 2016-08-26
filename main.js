@@ -18,7 +18,7 @@ function Tick() {
 
 function BuyLemonadeStand() {
 	if (increase >= Building1Cost) {
-		increase = money - Building1Cost;
+		increase = increase - Building1Cost;
 		Building1Qty = Building1Qty + 1;
 		document.getElementById("increase").innerHTML = increase;
 		document.getElementById("Building1Qty").innerHTML = Building1Qty;
