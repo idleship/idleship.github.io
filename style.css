@@ -16,3 +16,6 @@ h3 {
   top: 20%;
   left: 52%;
 }
+div::selection {
+  display:none;
+ }
