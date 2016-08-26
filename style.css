@@ -5,8 +5,10 @@ h3 {
 }
 #leftwords {
   float: left;
+  text-align: center;
   
 }
 #increase {
   float: left;
+  text-align: center;
 }
