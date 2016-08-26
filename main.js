@@ -5,3 +5,7 @@ function increase()
   document.getElementById("increase").innerHTML=i;
   return false;
 }
+function submitform()
+{
+    document.getElementById("submittingform").submit();
+}
