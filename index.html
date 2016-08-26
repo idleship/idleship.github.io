@@ -33,7 +33,14 @@
   </style>
   <h3>
     <svg height="550" width="550">
-    <circle id="planet-one" cx="425" cy="425" r="400" stroke="blue" stroke-width="0" fill="blue" />
+      <circle cx="425" cy="425" r="400" stroke="blue" stroke-width="0" fill="blue" />
     </svg>
   </h3>
+  <form action="/test-button" method="POST" id="SubmittingForm">
+    <input name="Submit" type="submit" value="Submit" />
+    <svg height="200" width="200" onclick="submitform();">
+      <circle cx="100" cy="100" r="100" stroke-width="0" fill="red"></circle>
+    </svg>
+    
+  </form>
 </html>
