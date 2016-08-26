@@ -1,3 +1,7 @@
+h1 {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
 h3 {
   position: fixed;
   bottom: -125px;
