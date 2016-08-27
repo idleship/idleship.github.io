@@ -24,3 +24,24 @@ h3 {
   -moz-user-select: none;
   -webkit-user-select: none;
 }
+#leftwords2 {
+  float: left;
+  position: fixed;
+  top: 25%;
+  left: 45%;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  
+  
+}
+#autoClickers {
+  float: left;
+  position: fixed;
+  top: 25%;
+  left: 52%;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  
+  
+  
+}
