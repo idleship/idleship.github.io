@@ -17,7 +17,9 @@
   </body>
   <h2>
     <div style="color:white" id="leftwords" align="center">Oxygen: </div>
-    <div style="color:white" id="increase" align="center">0</div>
+    <div style="color:white" id="total_clicks" align="center">0</div>
+    <p>Oxygen Per Second: <span id="autoClickers">0</span>
+    </p>
   </h2>
   <style>
     h1{
@@ -31,28 +33,12 @@
   </style>
   <h3>
     <svg height="550" width="550">
-      <circle type="button" value="" onclick="increase();" id="planet-one" cx="425" cy="425" r="400" stroke="blue" stroke-width="0" fill="blue" />
+      <circle type="button" value="" onclick="increase();" id="click" cx="425" cy="425" r="400" stroke="blue" stroke-width="0" fill="blue" />
     </svg>
   </h3>
   
-  <div id="buildings" class="block">
-			<div id="Building1">
-				<input type="button" value="Planet Miner" onclick="BuyLemonadeStand();">
-				<div>
-					<div style="color:white" class="label">Cost:</div>
-					<div style="color:white" id="Building1Cost" class="label">25</div>
-				</div>
-				
-				<div>
-					<div style="color:white" class="label">Oxygen/s:</div>
-					<div style="color:white" id="Building1PerSec" class="label">1</div>
-				</div>
-				
-				<div>
-					<div style="color:white" class="label">Total:</div>
-					<div style="color:white" id="Building1Qty" class="label">0</div>
-				</div>
-			</div>
-		</div>
+  <div class="container">
+  	
+  </div>
 
 </html>
