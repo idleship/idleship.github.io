@@ -16,7 +16,7 @@ h3 {
   -webkit-user-select: none;
   
 }
-#increase {
+#total_clicks {
   float: left;
   position: fixed;
   top: 20%;
