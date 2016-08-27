@@ -31,17 +31,12 @@ h3 {
   left: 40%;
   -moz-user-select: none;
   -webkit-user-select: none;
-  
-  
 }
 #autoClickers {
   float: left;
   position: fixed;
   top: 25%;
-  left: 54%;
+  left: 60%;
   -moz-user-select: none;
   -webkit-user-select: none;
-  
-  
-  
 }
