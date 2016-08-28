@@ -1,10 +1,3 @@
-i=0;
-function increase()
-{
-  i++;
-  document.getElementById("increase").innerHTML=i;
-  return true;
-}
 var totalClicks = 0;
 
 var clickIncrement = 1;
