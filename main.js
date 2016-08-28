@@ -4,7 +4,7 @@ var clickIncrement = 1;
 
 var tick = 1000;
 
-var autoClicker {
+var autoClicker = {
     increment:1,
     amount:0,
 };
