@@ -10,13 +10,11 @@ var autoClicker = {
 
 var tick = 1000;
 
-/* Run the AutoClicker */
 var runAutoClicker = setInterval(function () {
     totalClicks = totalClicks + (autoClicker.increment * autoClicker.amount);
     document.getElementById("total_clicks").innerHTML = totalClicks;
 }, tick)
 
-/* Buy AutoClickers */
 $('#autoClickerBuy').click(function () {
     if (totalClicks >= 10) {
         totalClicks = totalClicks - 10;
@@ -25,7 +23,6 @@ $('#autoClickerBuy').click(function () {
     }
 });
 
-/* Click to Increment */
 $('#click').click(function () {
     totalClicks = totalClicks + clickIncrement;
     document.getElementById("total_clicks").innerHTML = totalClicks;
