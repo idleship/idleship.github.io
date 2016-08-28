@@ -4,6 +4,11 @@ var clickIncrement = 1;
 
 var tick = 1000;
 
+var autoClicker {
+    increment=1
+    amount=0
+}
+
 var runAutoClicker = setInterval(function () {
     totalClicks = totalClicks + (autoClicker.increment * autoClicker.amount);
     document.getElementById("total_clicks").innerHTML = totalClicks;
