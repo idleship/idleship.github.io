@@ -14,6 +14,8 @@ h3 {
     border-radius:5px;
     text-align:center;
     color:white;
+    -moz-user-select: none;
+    -webkit-user-select: none;
 }
 
 #autoClickerBuy {
