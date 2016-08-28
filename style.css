@@ -7,36 +7,11 @@ h3 {
   bottom: -125px;
   right: -125px;
 }
-#leftwords {
-  float: left;
-  position: fixed;
-  top: 20%;
-  left: 45%;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  
-}
-#total_clicks {
-  float: left;
-  position: fixed;
-  top: 20%;
-  left: 52%;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-}
-#leftwords2 {
-  float: left;
-  position: fixed;
-  top: 25%;
-  left: 40%;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-}
-#autoClickers {
-  float: left;
-  position: fixed;
-  top: 25%;
-  left: 56%;
-  -moz-user-select: none;
-  -webkit-user-select: none;
+.container {
+    padding:5px 30px 30px 30px;
+    margin:30px;
+    border:solid white 1px;
+    border-radius:5px;
+    text-align:center;
+    color:white;
 }
